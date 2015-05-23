@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1106.0862312030079" y="0.0">gravis.handlers.Animation</node>
+    <node x="2693.732299498747" y="167.0">gravis.exceptions.InvalidFileException</node>
+    <node x="642.232299498747" y="512.0">gravis.handlers.MyInputProcessor</node>
+    <node x="1256.8362312030079" y="934.0">gravis.handlers.B2DVars</node>
+    <node x="1710.2322994987471" y="1377.5">gravis.entities.HUD</node>
+    <node x="2004.2322994987471" y="1344.0">gravis.handlers.MyContactListener</node>
+    <node x="707.3005952380955" y="1300.0">gravis.handlers.GameButton</node>
+    <node x="324.30059523809564" y="1344.5">gravis.states.GameState</node>
+    <node x="1957.7679354636593" y="932.5">gravis.entities.Player</node>
+    <node x="670.232299498747" y="823.5">gravis.handlers.MyInput</node>
+    <node x="0.0" y="412.0">gravis.handlers.Content</node>
+    <node x="1442.125" y="1760.0">gravis.states.Play</node>
+    <node x="2576.732299498747" y="0.0">gravis.exceptions.GravisException</node>
+    <node x="1553.2322994987471" y="1444.5">gravis.entities.Rainbow</node>
+    <node x="138.607299498747" y="823.0">gravis.main.Gravis</node>
+    <node x="808.6755952380955" y="1848.0">gravis.states.Menu</node>
+    <node x="1128.2322994987471" y="1311.5">gravis.handlers.Background</node>
+    <node x="298.8840852130327" y="2399.0">gravis.handlers.GameStateManager</node>
+    <node x="1242.0862312030079" y="455.5">gravis.entities.B2DSprite</node>
+    <node x="1685.2322994987471" y="965.5">gravis.handlers.MyFPSLogger</node>
+    <node x="2032.2679354636593" y="510.5">gravis.handlers.MyTime</node>
+    <node x="2431.732299498747" y="167.0">gravis.exceptions.FileHandlingException</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="gravis.exceptions.FileHandlingException" target="gravis.exceptions.GravisException">
+      <point x="0.0" y="-58.5" />
+      <point x="2552.732299498747" y="142.0" />
+      <point x="2628.482299498747" y="142.0" />
+      <point x="-51.75" y="58.5" />
+    </edge>
+    <edge source="gravis.states.Play" target="gravis.entities.Player">
+      <point x="271.7916666666665" y="-279.5" />
+      <point x="2010.4166666666665" y="1740.0" />
+      <point x="2360.732299498747" y="1740.0" />
+      <point x="2360.732299498747" y="1280.0" />
+      <point x="2188.7679354636593" y="1280.0" />
+      <point x="99.0" y="104.0" />
+    </edge>
+    <edge source="gravis.states.Play" target="gravis.entities.Rainbow">
+      <point x="-24.708333333333258" y="-279.5" />
+      <point x="1713.9166666666667" y="1660.0" />
+      <point x="1655.9822994987471" y="1660.0" />
+      <point x="34.25" y="25.5" />
+    </edge>
+    <edge source="gravis.states.Play" target="gravis.states.GameState">
+      <point x="-271.7916666666665" y="-279.5" />
+      <point x="1466.8333333333335" y="1710.0" />
+      <point x="641.9255952380956" y="1710.0" />
+      <point x="136.125" y="125.5" />
+    </edge>
+    <edge source="gravis.handlers.GameStateManager" target="gravis.states.Play">
+      <point x="153.42857142857144" y="-159.0" />
+      <point x="631.3126566416041" y="2379.0" />
+      <point x="1738.625" y="2379.0" />
+      <point x="0.0" y="279.5" />
+    </edge>
+    <edge source="gravis.exceptions.InvalidFileException" target="gravis.exceptions.GravisException">
+      <point x="0.0" y="-58.5" />
+      <point x="2807.732299498747" y="142.0" />
+      <point x="2731.982299498747" y="142.0" />
+      <point x="51.75" y="58.5" />
+    </edge>
+    <edge source="gravis.entities.HUD" target="gravis.entities.Player">
+      <point x="80.0" y="-92.5" />
+      <point x="1910.2322994987471" y="1270.0" />
+      <point x="1990.7679354636593" y="1270.0" />
+      <point x="-99.0" y="104.0" />
+    </edge>
+    <edge source="gravis.entities.HUD" target="gravis.handlers.MyFPSLogger">
+      <point x="-80.0" y="-92.5" />
+      <point x="1750.2322994987471" y="1280.0" />
+      <point x="1737.7322994987471" y="1280.0" />
+      <point x="-52.5" y="71.0" />
+    </edge>
+    <edge source="gravis.states.GameState" target="gravis.handlers.GameStateManager">
+      <point x="-45.375" y="125.5" />
+      <point x="460.42559523809564" y="2339.0" />
+      <point x="529.0269423558898" y="2339.0" />
+      <point x="51.14285714285711" y="-159.0" />
+    </edge>
+    <edge source="gravis.states.Menu" target="gravis.entities.B2DSprite">
+      <point x="81.1875" y="-191.5" />
+      <point x="1106.3630952380954" y="1740.0" />
+      <point x="1117.7322994987471" y="1740.0" />
+      <point x="1117.7322994987471" y="803.0" />
+      <point x="1287.8362312030079" y="803.0" />
+      <point x="-137.25" y="137.0" />
+    </edge>
+    <edge source="gravis.entities.B2DSprite" target="gravis.handlers.Animation">
+      <point x="-91.5" y="-137.0" />
+      <point x="1333.5862312030079" y="392.0" />
+      <point x="1391.0862312030079" y="392.0" />
+      <point x="57.0" y="181.0" />
+    </edge>
+    <edge source="gravis.states.Play" target="gravis.handlers.MyContactListener">
+      <point x="222.375" y="-279.5" />
+      <point x="1961.0" y="1730.0" />
+      <point x="2263.732299498747" y="1730.0" />
+      <point x="86.5" y="126.0" />
+    </edge>
+    <edge source="gravis.entities.Player" target="gravis.handlers.MyTime">
+      <point x="88.0" y="-104.0" />
+      <point x="2177.7679354636593" y="803.0" />
+      <point x="2204.7679354636593" y="803.0" />
+      <point x="57.5" y="82.0" />
+    </edge>
+    <edge source="gravis.states.Play" target="gravis.entities.HUD">
+      <point x="74.125" y="-279.5" />
+      <point x="1812.75" y="1700.0" />
+      <point x="1890.2322994987471" y="1700.0" />
+      <point x="60.0" y="92.5" />
+    </edge>
+    <edge source="gravis.states.Play" target="gravis.handlers.Background">
+      <point x="-222.37499999999977" y="-279.5" />
+      <point x="1516.2500000000002" y="1700.0" />
+      <point x="1330.7322994987471" y="1700.0" />
+      <point x="0.0" y="158.5" />
+    </edge>
+    <edge source="gravis.main.Gravis" target="gravis.handlers.Content">
+      <point x="-158.0" y="-213.5" />
+      <point x="217.607299498747" y="803.0" />
+      <point x="130.0" y="803.0" />
+      <point x="-130.0" y="180.5" />
+    </edge>
+    <edge source="gravis.states.Menu" target="gravis.handlers.Animation">
+      <point x="-27.0625" y="-191.5" />
+      <point x="998.1130952380955" y="1720.0" />
+      <point x="1095.7322994987471" y="1720.0" />
+      <point x="1095.7322994987471" y="382.0" />
+      <point x="1163.0862312030079" y="382.0" />
+      <point x="-171.0" y="181.0" />
+    </edge>
+    <edge source="gravis.handlers.GameStateManager" target="gravis.main.Gravis">
+      <point x="-51.14285714285711" y="-159.0" />
+      <point x="426.74122807017557" y="2359.0" />
+      <point x="313.80059523809564" y="2359.0" />
+      <point x="313.80059523809564" y="1280.0" />
+      <point x="434.857299498747" y="1280.0" />
+      <point x="59.25" y="213.5" />
+    </edge>
+    <edge source="gravis.states.Menu" target="gravis.handlers.Background">
+      <point x="135.3125" y="-191.5" />
+      <point x="1160.4880952380954" y="1740.0" />
+      <point x="1168.7322994987471" y="1740.0" />
+      <point x="-162.0" y="158.5" />
+    </edge>
+    <edge source="gravis.states.Menu" target="gravis.states.GameState">
+      <point x="-189.4375" y="-191.5" />
+      <point x="835.7380952380955" y="1740.0" />
+      <point x="551.1755952380956" y="1740.0" />
+      <point x="45.375" y="125.5" />
+    </edge>
+    <edge source="gravis.entities.Player" target="gravis.entities.B2DSprite">
+      <point x="-88.0" y="-104.0" />
+      <point x="2001.7679354636593" y="793.0" />
+      <point x="1562.3362312030079" y="793.0" />
+      <point x="137.25" y="137.0" />
+    </edge>
+    <edge source="gravis.entities.Rainbow" target="gravis.entities.B2DSprite">
+      <point x="0.0" y="-25.5" />
+      <point x="1621.7322994987471" y="803.0" />
+      <point x="1470.8362312030079" y="803.0" />
+      <point x="45.75" y="137.0" />
+    </edge>
+    <edge source="gravis.states.Menu" target="gravis.handlers.GameButton">
+      <point x="-135.3125" y="-191.5" />
+      <point x="889.8630952380955" y="1730.0" />
+      <point x="793.5505952380955" y="1730.0" />
+      <point x="-86.25" y="170.0" />
+    </edge>
+    <edge source="gravis.main.Gravis" target="gravis.handlers.MyInputProcessor">
+      <point x="158.0" y="-213.5" />
+      <point x="533.607299498747" y="803.0" />
+      <point x="720.732299498747" y="803.0" />
+      <point x="-78.5" y="80.5" />
+    </edge>
+    <edge source="gravis.handlers.B2DVars" target="gravis.entities.B2DSprite">
+      <point x="0.0" y="-102.5" />
+      <point x="-45.75" y="137.0" />
+    </edge>
+    <edge source="gravis.handlers.GameStateManager" target="gravis.states.GameState">
+      <point x="0.0" y="-159.0" />
+      <point x="477.8840852130327" y="2349.0" />
+      <point x="401.75603070175475" y="2349.0" />
+      <point x="401.75603070175475" y="1740.0" />
+      <point x="369.67559523809564" y="1740.0" />
+      <point x="-136.125" y="125.5" />
+    </edge>
+    <edge source="gravis.main.Gravis" target="gravis.handlers.GameStateManager">
+      <point x="-59.25" y="213.5" />
+      <point x="316.357299498747" y="1270.0" />
+      <point x="302.80059523809564" y="1270.0" />
+      <point x="302.80059523809564" y="2369.0" />
+      <point x="375.59837092731846" y="2369.0" />
+      <point x="-102.28571428571422" y="-159.0" />
+    </edge>
+    <edge source="gravis.handlers.GameStateManager" target="gravis.states.Menu">
+      <point x="102.28571428571433" y="-159.0" />
+      <point x="580.169799498747" y="2369.0" />
+      <point x="1025.1755952380954" y="2369.0" />
+      <point x="0.0" y="191.5" />
+    </edge>
+    <edge source="gravis.handlers.MyContactListener" target="gravis.entities.Player">
+      <point x="0.0" y="-126.0" />
+      <point x="2177.232299498747" y="1280.0" />
+      <point x="2122.7679354636593" y="1280.0" />
+      <point x="33.0" y="104.0" />
+    </edge>
+    <edge source="gravis.handlers.MyInput" target="gravis.handlers.MyInputProcessor">
+      <point x="0.0" y="-213.0" />
+      <point x="78.5" y="80.5" />
+    </edge>
+    <edge source="gravis.states.GameState" target="gravis.main.Gravis">
+      <point x="0.0" y="-125.5" />
+      <point x="505.80059523809564" y="1280.0" />
+      <point x="553.357299498747" y="1280.0" />
+      <point x="177.75" y="213.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6798684691267813" x="2046.3777669906094" y="1504.2111888257186" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
